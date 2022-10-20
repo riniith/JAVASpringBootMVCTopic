@@ -1,1 +1,5 @@
 # JAVASpringBootMVCTopic
+
+此论坛选用Spring Boot 自动配置，Spring MVC作为框架，Tomcat作为Servlet容器，数据储存使用MySQ，ORM使用MyBatis。
+项目部署使用Nginx作为反向代理，处理静态资源缓存压缩
+对于变动频率较低的数据进行基于Redis的缓存优化
